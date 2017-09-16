@@ -9,17 +9,7 @@
 <video id="stream" width="300" controls ></video>
 </body>
 <script>
-	navigator.mediaDevices.getUserMedia({ audio: true, video: true })
-	.then(function(stream) {
-		const video = document.getElementById('stream');
-		  video.srcObject = stream;
-		  video.onloadedmetadata = function(e) {
-		  video.play();
-  	};
-  /* use the stream */
-}).catch(function(err) {
-  console.log(err);
-});
+	
 </script>
-
+<script src="open_camera.js"></script>
 </html>
