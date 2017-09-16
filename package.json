@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/phamvantuan/stream0916/issues"
   },
-  "homepage": "https://github.com/phamvantuan/stream0916#readme"
+  "homepage": "https://github.com/phamvantuan/stream0916#readme",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
 }
