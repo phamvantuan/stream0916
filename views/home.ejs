@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Tuan Pham Web RTC</title>
+</head>
+
+<body>
+<h1>Tuan Pham xin chao</h1>
+<video id="stream" width="300" controls ></video>
+</body>
+<script>
+	navigator.mediaDevices.getUserMedia({ audio: true, video: true })
+	.then(function(stream) {
+		const video = document.getElementById('stream');
+		  video.srcObject = stream;
+		  video.onloadedmetadata = function(e) {
+		  video.play();
+  	};
+  /* use the stream */
+}).catch(function(err) {
+  console.log(err);
+});
+</script>
+
+</html>
