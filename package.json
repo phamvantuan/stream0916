@@ -16,6 +16,9 @@
     "url": "https://github.com/phamvantuan/stream0916/issues"
   },
   "homepage": "https://github.com/phamvantuan/stream0916#readme",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "jquery": "^3.2.1"
   }
